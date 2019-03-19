@@ -1,0 +1,315 @@
+ {
+      id: '1',
+      message: 'Hello this is Mr Anil and Sunita Sodhani(need something here ',
+      trigger: '2',
+    },
+    {
+      id: '2',
+      message: 'We have a great news for you',
+      trigger: '3',
+    },
+    {
+      id: '3',
+      options: [
+        { value: 1, label: 'So whats the big news', trigger: '4' },
+        ],
+    },
+    {
+      id: '4',
+      message: 'Aditya and Sneha are finally getting marries with the gods grace and blessings',
+      trigger: 'image',
+  
+    },
+    {
+      id: 'image',
+      component: (
+              <div style={{borderRadius:10}}> 
+                <img src="http://bojtv.com/wp-content/uploads/2018/06/rs_600x600-180623100112-600-rose-kit.cm.62318.jpg " 
+                  alt=''
+                  onClick={() => this.setState({lightboxIsOpen:true,image:[ { src: 'http://bojtv.com/wp-content/uploads/2018/06/rs_600x600-180623100112-600-rose-kit.cm.62318.jpg '}]})}
+                  style={{width:300,height:300,borderRadius:13}}
+                /> 
+               </div>
+            ),
+            trigger: '5',
+    },
+    {
+      id: '5',
+      options: [
+        { value: 1, label: 'Congratulations', trigger: '6' },
+        ],
+    },
+    {
+      id: '6',
+      message: 'You are Invited to the grand 3 day event #adisnehadavyaah at Mahabaleshwer',
+      trigger: 'location',
+  
+    },
+    {
+      id: 'location',
+      component: (
+              <div style={{padding:0}}> 
+                <img src="https://png.pngtree.com/element_our/sm/20180515/sm_5afb0cf7bd445.jpg" 
+                  alt=''
+                  onClick={() => this.setState({lightboxIsOpen:true,image:[ { src: 'https://png.pngtree.com/element_our/sm/20180515/sm_5afb0cf7bd445.jpg'}]})}
+                  style={{width:100,height:100}}
+                /> 
+               </div>
+            ),
+            trigger: '7',
+    },
+    {
+      id: '7',
+      options: [
+        { value: 1, label: 'So whats are the dates?', trigger: '8' },
+        ],
+    },
+    {
+      id: '8',
+      message: 'Its on 19-20-21 of April',
+      trigger: 'card',
+    },
+    {
+      id: 'card',
+      component: (
+              <div> 
+                <img src="https://png.pngtree.com/element_our/sm/20180515/sm_5afb0cf7bd445.jpg" 
+                  alt=''
+                  style={{width:100,height:100}}
+                  onClick={() => this.setState({lightboxIsOpen:true,image:[ { src: 'https://png.pngtree.com/element_our/sm/20180515/sm_5afb0cf7bd445.jpg'}]})}
+                /> 
+               </div>
+            ),
+            trigger: '9',
+    },
+    // https://image.freepik.com/free-vector/elegant-wedding-card-with-wooden-design_23-2147674580.jpg
+    {
+      id: '9',
+      options: [
+        { value: 1, label: 'Awesome & Soo whats the itinerary/program?', trigger: '10' },
+        ],
+    },
+    {
+      id: '10',
+      message: '19th April is our Faag Utsaav at 6pm Attire Would be Ladies: Lehenga & Gents Traditional',
+      trigger: 'traditional',
+  
+    },
+    {
+      id: 'traditional',
+      component: (
+              <div> 
+                <img src="https://images.manyavar.com/product_images/13586/qty_30/16-Aushka-2307_resized.jpg?1548138285" 
+                  alt=''
+                  onClick={() => this.setState({lightboxIsOpen:true,image:[ { src: 'https://images.manyavar.com/product_images/13586/qty_30/16-Aushka-2307_resized.jpg?1548138285'}]})}
+                  style={{width:150,height:200}}
+                /> 
+               </div>
+            ),
+            trigger: '11',
+    },
+    {
+      
+      id: '11',
+      options: [
+        { value: 1, label: 'Cool whats on the 2nd day? ', trigger: '12' },
+        ],
+    },
+    {
+      id: '12',
+      message: 'On 20th Most awaited event... SANGEET followed by engagement',
+      trigger: '13',
+    },
+    {
+      id: '13',
+      message: 'Soo be ready at 6 PM Fully energetic & ready to rock the dance floor carring a classy western outfit',
+      trigger: 'sangeet',
+  
+    },
+    {
+      id: 'sangeet',
+      component: (
+              <div> 
+                <img src="https://4.bp.blogspot.com/-psQ3C_d1uAM/W1XAyJEM4sI/AAAAAAAAL3s/AkCNZVpOaCszFXmiNRfFdKwPh9l51kT7QCLcBGAs/s1600/what%2Bto%2Bwear%2Bto%2Ban%2Bindian%2Bwedding%2Bas%2Ba%2Bguest%2Bmale%2B%2B%252820%2529.jpg" 
+                  alt=''
+                  onClick={() => this.setState({lightboxIsOpen:true,image:[ { src: 'https://4.bp.blogspot.com/-psQ3C_d1uAM/W1XAyJEM4sI/AAAAAAAAL3s/AkCNZVpOaCszFXmiNRfFdKwPh9l51kT7QCLcBGAs/s1600/what%2Bto%2Bwear%2Bto%2Ban%2Bindian%2Bwedding%2Bas%2Ba%2Bguest%2Bmale%2B%2B%252820%2529.jpg'}]})}
+                  style={{width:150,height:200}}
+                /> 
+               </div>
+            ),
+            trigger: '14',
+    },
+    {
+      
+      id: '14',
+      options: [
+        { value: 1, label: 'Great, So when is the finale ', trigger: '15' },
+        ],
+    },
+    {
+      id: '15',
+      message: 'The Finale *drumrolls* The Wedding Day is on the very next day just after the hawaiian carnival (pool party) ',
+      trigger: 'drumrolls',
+    },
+    {
+      id: 'drumrolls',
+      component: (
+              <div> 
+                <img src="https://media.giphy.com/media/GBvkxysAR8Svm/giphy.gif" 
+                  alt=''
+                  onClick={() => this.setState({lightboxIsOpen:true,image:[ { src: 'https://media.giphy.com/media/GBvkxysAR8Svm/giphy.gif'}]})}
+                  style={{width:200,height:200}}
+                /> 
+               </div>
+            ),
+            trigger: '16',
+    },
+    {
+      id: '16',
+      message: 'Soo would you be able to join us for the wedding?',
+      trigger: '17',
+    },
+    {
+      
+      id: '17',
+      options: [
+        { value: 1, label: 'Absolutely yes! ', trigger: '18' },
+        { value: 2, label: 'No ', trigger: 'no' },
+        ],
+    },
+    {
+      id: 'no',
+      message: 'No Problem but we would surely miss your presence.',
+      trigger: '21',
+    },
+    {
+      id: '18',
+      message: 'RSVP with your name and date of arrival at the destination please?',
+      trigger: '19',
+    },
+    {
+      
+      id: '19',
+      options: [
+        { value: 1, label: 'RSVP DETAILS', trigger: '20' },
+        ],
+    },
+    {
+      id: '20',
+      message: 'Thank you for those details! Excited to see you there!',
+      trigger: '21',
+    },
+    {
+      
+      id: '21',
+      options: [
+        { value: 1, label: 'how do we share our love for the couple?',trigger: '22' ,
+         },
+        ],
+    },
+    {
+      id: '22',
+      message: 'You can share the love my using #adishendavyaah',
+      trigger: '24',
+    },
+    {
+      id: '24',
+      message: 'One last thing If you want to leave a message for the couple let me know below',
+      trigger: '25',
+    },
+    {
+      
+      id: '25',
+      options: [
+        { value: 1, label: 'Message for the couple', trigger: '26' },
+        ],
+    },
+    {
+      id: '26',
+      message: 'Thank you for the lovely response will forward it to the couple',
+      end:true,
+    }
+
+
+
+
+
+
+
+    //------------------------------------------------------------------
+    import React from 'react'
+export const messageList =[
+    {   
+        id:1,
+        username: "bot",
+        content:' Hello this is Mr Anil and Sunita Sodhani(need something here',
+        img: "http://i.imgur.com/Tj5DGiO.jpg",
+        type:'text',
+        image:'http://www1.pictures.zimbio.com/gi/Portsmouth+v+Coventry+City+FA+Cup+3rd+Round+mBzseXH41lcl.jpg',
+        display:false,
+    }, 
+    {   
+        id:2,
+        username: "bot",
+        content: 'We have a great news for you.',
+        img: "http://i.imgur.com/Tj5DGiO.jpg",
+        time:2000,
+        type:'text',
+        image:'http://www1.pictures.zimbio.com/gi/Portsmouth+v+Coventry+City+FA+Cup+3rd+Round+mBzseXH41lcl.jpg',
+        display:false,
+    }, 
+    {
+        id:3,
+        username: "bot",
+        content: 'Check out my Github at https://github.com/WigoHunter',
+        type:'text',
+        img: "http://i.imgur.com/Tj5DGiO.jpg",
+        time:5000,
+        display:false,
+    }, 
+    {
+        id:4,
+        username: "user",
+        content: 'Lorem ipsum dolor sit amet, nibh ipsum. Cum class sem inceptos incidunt sed sed. Tempus wisi enim id, arcu sed lectus aliquam, nulla vitae est bibendum molestie elit risus.',
+        img: "http://i.imgur.com/ARbQZix.jpg",
+        time:7000,
+        type:'image',
+        image:'http://www1.pictures.zimbio.com/gi/Portsmouth+v+Coventry+City+FA+Cup+3rd+Round+mBzseXH41lcl.jpg',
+
+        display:false,
+    }, {
+        id:5,
+        username: "bot",
+        content: 'So',
+        img: "http://i.imgur.com/Tj5DGiO.jpg",
+        time:9000,
+        type:'map',
+        display:false,
+    }, {
+        id:6,
+        username: "user",
+        content: 'Chilltime is going to be an app for you to view videos with friends',
+        img: "http://i.imgur.com/Tj5DGiO.jpg",
+        time:11000,
+        type:'text',
+        image:'http://www1.pictures.zimbio.com/gi/Portsmouth+v+Coventry+City+FA+Cup+3rd+Round+mBzseXH41lcl.jpg',
+        display:false,
+    }, {
+        id:7,
+        username: "bot",
+        content: 'You can sign-up now to try out our private beta!',
+        img: "http://i.imgur.com/Tj5DGiO.jpg",
+        type:'text',
+        time:13000,
+        display:false,
+    }, {
+        id:8,
+        username: "user",
+        content: 'Definitely! Sounds great!',
+        img: "http://i.imgur.com/Tj5DGiO.jpg",
+        time:15000,
+        type:'text',
+        image:'http://www1.pictures.zimbio.com/gi/Portsmouth+v+Coventry+City+FA+Cup+3rd+Round+mBzseXH41lcl.jpg',
+        display:false,
+    }
+    ];
