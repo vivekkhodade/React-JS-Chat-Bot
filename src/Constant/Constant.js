@@ -3,23 +3,14 @@ export const messageList =[
     {   
         id:1,
         username: "bot",
-        content:' Hey! Hope all is well at your end. ',
-        buttonText:' Hey! Hope all is well at your end. ',
+        content:" Jai Jinendra! We, Jains's & Daglia's have great news to share with you!",
+        buttonText:" Jai Jinendra! We, Jains's & Daglia's have great news to share with you!",
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         type:'text',
         display:false,
-    }, 
+    },
     {   
         id:2,
-        username: "bot",
-        content: <p>We, <b>Sodhani’s & Kabra’s</b> have a great news to share with you! </p>,
-        buttonText: <p>We, <b>Sodhani’s & Kabra’s</b> have a great news to share with you! </p>,
-        img: "http://i.imgur.com/Tj5DGiO.jpg",
-        type:'text',
-        display:false,
-    }, 
-    {   
-        id:3,
         username: "bot",
         content: <p><b>Tap below</b> to know more!👇🏼</p>,
         buttonText: <p><b>Tap below</b> to know more!👇🏼</p>,
@@ -28,36 +19,35 @@ export const messageList =[
         display:false,
     }, 
     {
-        id:4,
+        id:3,
         username: "user",
-        content: 'So what’s in store?',
-        buttonText: 'So what’s in store?',
+        content: 'I am interested to know…',
+        buttonText: 'I am interested to know…',
         type:'text',
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         display:false,
     }, 
     {
-        id:5,
+        id:4,
         username: "bot",
         content: '',
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         type:'image',
-        image:require('../images/bigFatWedding.jpg'),
-        // image:'http://www.haringphotography.com/wp-content/uploads/2018/08/Florida-Best-indian-wedding-photographer-4.jpg',
+        image:require('../images/first.jpeg'),
         display:false,
     }, 
         {
-        id:6,
+        id:5,
         username: "bot",
-        content: <p><b>Aditya & Sneha</b> are tying the knot!</p> ,
-        buttonText: <p><b>Aditya & Sneha</b> are tying the knot!</p> ,
+        content: <p><b>Rohan & Prashansa</b> are tying the knot!</p> ,
+        buttonText: <p><b>Rohan & Prashansa</b> are tying the knot!</p> ,
         img: "http://i.imgur.com/ARbQZix.jpg",
         type:'text',
 
         display:false,
     }, 
     {
-        id:7,
+        id:6,
         username: "bot",
         content: <p>And you’re invited for the <b>BIG FAT INDIAN WEDDING!</b></p>,
         buttonText: <p>And you’re invited for the <b>BIG FAT INDIAN WEDDING!</b></p>,
@@ -66,7 +56,7 @@ export const messageList =[
         display:false,
     }, 
     {
-        id:8,
+        id:7,
         username: "user",
         content: ' Congratulations! 💃💃  What are the dates?',
         buttonText: ' Congratulations! 💃💃  What are the dates?',
@@ -74,41 +64,50 @@ export const messageList =[
         display:false,
     }, 
         {
-            id:9,
+            id:8,
             username: "bot",
-            content: '19th - 21st of April 2019',
-            buttonText: '19th - 21st of April 2019',
+            content: '18th - 20th December, 2022',
+            buttonText: '18th - 20th December, 2022',
             img: "http://i.imgur.com/Tj5DGiO.jpg",
             type:'text',
             display:false,
         },
         {
-        id:10,
-        username: "user",
-        content: 'Awesome! Where are the events?',
+        id:9,
+        username: "bot",
+        content: "It's a destination wedding, held at Raajsa Resort, Kumbalgargh, Rajhastan.",
         buttonText: 'Awesome! Where are the events?',
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         type:'text',
         display:false,
     },
-        {
-        id:11,
+    //     {
+    //     id:10,
+    //     username: "bot",
+    //     content: '',
+    //     img: "http://i.imgur.com/Tj5DGiO.jpg",
+    //     image:require('../images/hotel.avif'),
+    //     type:'image ',
+    //     display:false,
+    // },
+    {
+        id:10,
         username: "bot",
-        content: 'It’s a destination wedding, held at Hotel Fountain, Mahabaleshwar',
-        buttonText: 'It’s a destination wedding, held in Mahabaleshwar',
+        content: '',
         img: "http://i.imgur.com/Tj5DGiO.jpg",
-        type:'text',
+        type:'image',
+        image:require('../images/first.jpeg'),
         display:false,
     },
+    // {
+    //     id:12,
+    //     username: "bot",
+    //     img: "http://i.imgur.com/Tj5DGiO.jpg",
+    //     type:'map',
+    //     display:false,
+    // }, 
     {
         id:12,
-        username: "bot",
-        img: "http://i.imgur.com/Tj5DGiO.jpg",
-        type:'map',
-        display:false,
-    }, 
-    {
-        id:13,
         username: "user",
         content: ' That’s awesome! Excited for a destination wedding 😃',
         buttonText: 'That’s awesome!😃',
@@ -119,35 +118,26 @@ export const messageList =[
     {
         id:14,
         username: "bot",
-        content: 'On 19th April,',
-        buttonText: 'On 19th April, we have Faag Utsav, at 6 PM',
+        content: 'On 18th December, we have Baraat Swagat followed by Welcome Dinner from 5:30 PM onwards.',
+        buttonText: 'On 18th December, we have Baraat Swagat followed by Welcome Dinner from 5:30 PM onwards.',
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         type:'text',
         display:false,
     },
     {
         id:15,
-        username: "bot",
-        content: 'We have Faag Utsav, Phoolon ki Holi at 6 PM',
-        buttonText: 'On 19th April, we have Faag Utsav, at 6 PM',
-        img: "http://i.imgur.com/Tj5DGiO.jpg",
-        type:'text',
-        display:false,
-    },
-    {
-        id:16,
         username: "user",
+        content:'Sounds good!',
+        buttonText:'Sounds good!',
         img: "http://i.imgur.com/Tj5DGiO.jpg",
-        content:'Cool',
-        buttonText:'Cool',
         type:'text',
         display:false,
-    }, 
+    },  
     {
         id:17,
         username: "bot",
-        content: 'On 20th April,',
-        buttonText: 'On 20th April,',
+        content: 'on 19th December,',
+        buttonText: 'on 19th December,',
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         type:'text',
         display:false,
@@ -157,8 +147,8 @@ export const messageList =[
         username: "bot",
         content: 
         <p>We have Mahera in the afternoon,<br></br>
-        - Kabra family at <strong>11am</strong>,<br/> 
-        - Sodhani family at <strong>2pm</strong>
+        - Grooms Side at <strong>10:15 AM</strong>,<br/> 
+        - Bride's Side at  <strong>11:00 AM</strong>
         </p>,
         buttonText: 'We have Mahera in the afternoon.',
         img: "http://i.imgur.com/Tj5DGiO.jpg",
@@ -171,18 +161,10 @@ export const messageList =[
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         // image:'https://scontent.fbom19-1.fna.fbcdn.net/v/t31.0-8/26756734_10155893614176142_5426006532846277824_o.jpg?_nc_cat=108&_nc_ht=scontent.fbom19-1.fna&oh=3ae7dfd59a8061f4daa18ae485dc3e96&oe=5D26F719',
         type:'text',
-        content:'Followed by Engagement and Sangeet in the evening..',
+        content:'Followed by Sangeet in the evening at 6:15 PM',
         display:false,
     },  
-    {
-        id:20,
-        username: "bot",
-        content: '& ofcourse DJ Party post that! 😉 ',
-        buttonText: 'And Engagement and Sangeet in the evening.',
-        img: "http://i.imgur.com/Tj5DGiO.jpg",
-        type:'text',
-        display:false,
-    },
+    // Dancing Gif
     {
         id:21,
         username: "bot",
@@ -194,8 +176,8 @@ export const messageList =[
     {
         id:22,
         username: "user",
-        content:'Sounds good!',
-        buttonText:'Sounds good!',
+        content:"That's going to be Fun!",
+        buttonText:"That's going to be Fun!",
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         type:'text',
         display:false,
@@ -203,12 +185,13 @@ export const messageList =[
     {
         id:23,
         username: "bot",
-        content: 'On 21st April, we have pool party in the morning,',
-        buttonText: 'On 21st April, we have pool party in the morning',
+        content: 'On 20th December, we have Carnival in the morning at 10:00 AM…',
+        buttonText: 'On 20th December, we have Carnival in the morning at 10:00 AM…',
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         type:'text',
         display:false,
     },
+    // carnival Gif
     {
         id:24,
         username: "bot",
@@ -220,12 +203,13 @@ export const messageList =[
     {
         id:25,
         username: "bot",
-        content: 'Nikasi in the afternoon,',
-        buttonText: 'Nikasi in the afternoon,',
+        content: 'Nikasi in the afteroon at 3:15 PM (Dance Emoji)',
+        buttonText: 'Nikasi in the afteroon at 3:15 PM (Dance Emoji)',
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         type:'text',
         display:false,
     },
+    // Nikasi GIF
     {
         id:26,
         username: "bot",
@@ -237,12 +221,13 @@ export const messageList =[
     {
         id:27,
         username: "bot",
-        content: '& Pheras in the evening ❤️❤️',
-        buttonText: 'Pheras in the evening.',
+        content: 'Followed by Varmala & Phera at 05:00 PM ❤️❤️',
+        buttonText: 'Followed by Varmala & Phera at 05:00 PM (Heart Emoji)',
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         type:'text',
         display:false,
     },
+    // Phera GIF!
     {
         id:28,
         username: "bot",
@@ -256,10 +241,11 @@ export const messageList =[
         username: "user",
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         type:'text',
-        content:' Wow! Sounds awesome! ',
-        buttonText:' Wow! Sounds awesome! ',
+        content:"It's going to be a dream wedding!",
+        buttonText:"It's going to be a dream wedding!",
         display:false,
     },
+    // Cheers Gif
     {
         id:30,
         username: "user",
@@ -277,12 +263,13 @@ export const messageList =[
         type:'text',
         display:false,
     },
+    // Couple Photo
     {
         id:32,
         username: "bot",
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         type:'image',
-        image:require('../images/invite.jpg'),
+        image:require('../images/second.jpeg'),
         display:false,
     },
     {
@@ -297,8 +284,7 @@ export const messageList =[
     {
         id:34,
         username: "bot",
-        content: <p>Kindly RSVP with your name at the link below please?<br/> <br/>
-                 <p> <a style={{display: "table-cell"}} href="https://goo.gl/forms/LqvH9AxNzwMMAwTL2" target="_blank">RSVP link</a></p></p>            
+        content:<p> <a style={{display: "table-cell"}} href="../images/RP_LOGO.pdf" target="_blank" download={true}>click here (Invite link)</a></p>
         ,
         buttonText: 'Oh and RSVP with your name at the link below please?',
         img: "http://i.imgur.com/Tj5DGiO.jpg",
@@ -306,9 +292,21 @@ export const messageList =[
         display:false,
     },
     {
+        id:34,
+        username: "bot",
+        content: <p>Kindly RSVP with your name at the link below.<br/> <br/>
+                 <p> <a style={{display: "table-cell"}} href="https://goo.gl/forms/LqvH9AxNzwMMAwTL2" target="_blank">RSVP link</a></p></p>            
+        ,
+        buttonText: 'Oh and RSVP with your name at the link below.?',
+        img: "http://i.imgur.com/Tj5DGiO.jpg",
+        type:'text',
+        display:false,
+    },
+    {
         id:35,
         username: "bot",
-        content: <p>And do not forget to use <strong>#AdiSnehDaVyaah</strong> while posting selfies on social media.</p>,
+        // And also don’t forget to use #terenaalPRhogaya while posting selfies on social media
+        content: <p>And also don’t forget to use <strong>#terenaalPRhogaya</strong> while posting selfies on social media.</p>,
         buttonText: 'Thank you! So excited to see you there!',
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         type:'text',

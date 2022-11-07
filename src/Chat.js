@@ -6,7 +6,6 @@ import Lightbox from 'react-images';
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'; 
 import './App.css';
 import Message from './Message';
-import Button from '@material-ui/core/Button';
 
 const styles = theme => ({
     button: {
@@ -55,7 +54,7 @@ class Chats extends Component {
         // this.timer = setTimeout(this.updateRenderedThings, 2000)
         // this.scrollToBot();
         this.timer = setTimeout(()=>{
-            if(this.state.itemsRendered==3 && !this.state.showButton){
+            if(this.state.itemsRendered==4 && !this.state.showButton){
                 this.setState({
                     showButton:true
                 })
@@ -133,37 +132,13 @@ class Chats extends Component {
         this.setState(updatedState)
           if (updatedState.itemsRendered < this.state.things.length) {
             this.scrollToBot();
-                // if(this.state.itemsRendered==3){
-                //     this.setState({
-                //         showButton:true
-                //     })
-                //     clearTimeout(this.timer)
-                // }
-                // else if(this.state.itemsRendered==5){
-                //     this.setState({
-                //         showButton:true
-                //     })
-                //     clearTimeout(this.timer)
-                // }
-                // else if(this.state.itemsRendered==7){
-                //     this.setState({
-                //         showButton:true
-                //     })
-                //     clearTimeout(this.timer)
-                // }
-                // else{
                     this.scheduleNextUpdate();
-                // }
              }
          }
     componentWillUnmount() {
         clearTimeout(this.timer)
     }
     sendMessage1 = () =>{
-        
-        // alert('button Pressed!');
-        // this.refs.btn1.setAttribute("disabled", "disabled");
-        // this.scheduleNextUpdate();
         this.updateRenderedThings();
         this.scrollToBot();
     }
@@ -188,7 +163,6 @@ class Chats extends Component {
         <div className='buttonDiv'>
             <button variant="contained" color="secondary" className= 'customButton'
             style={{borderRadius:50}}
-            // ref="btn1" 
             onClick={()=>{
                                 this.setState({
                                 showButton:false
