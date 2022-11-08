@@ -54,56 +54,56 @@ class Chats extends Component {
         // this.timer = setTimeout(this.updateRenderedThings, 2000)
         // this.scrollToBot();
         this.timer = setTimeout(()=>{
-            if(this.state.itemsRendered==4 && !this.state.showButton){
+            if(this.state.itemsRendered===2 && !this.state.showButton){
                 this.setState({
                     showButton:true
                 })
                 this.scrollToBot();
                 clearTimeout(this.timer)
             }
-            else if(this.state.itemsRendered==7 && !this.state.showButton){
+            else if(this.state.itemsRendered===6 && !this.state.showButton){
                 this.setState({
                     showButton:true
                 })
                 this.scrollToBot();
                 clearTimeout(this.timer)
             }
-            else if(this.state.itemsRendered==9 && !this.state.showButton){
+            else if(this.state.itemsRendered===10 && !this.state.showButton){
                 this.setState({
                     showButton:true
                 })
                 this.scrollToBot();
                 clearTimeout(this.timer)
             }
-            else if(this.state.itemsRendered==12 && !this.state.showButton){
+            else if(this.state.itemsRendered===12 && !this.state.showButton){
                 this.setState({
                     showButton:true
                 })
                 this.scrollToBot();
                 clearTimeout(this.timer)
             }
-            else if(this.state.itemsRendered==15 && !this.state.showButton){
+            else if(this.state.itemsRendered===17 && !this.state.showButton){
                 this.setState({
                     showButton:true
                 })
                 this.scrollToBot();
                 clearTimeout(this.timer)
             }
-            else if(this.state.itemsRendered==21 && !this.state.showButton){
+            else if(this.state.itemsRendered===24 && !this.state.showButton){
                 this.setState({
                     showButton:true
                 })
                 this.scrollToBot();
                 clearTimeout(this.timer)
             }
-            else if(this.state.itemsRendered==28 && !this.state.showButton){
-                this.setState({
-                    showButton:true
-                })
-                this.scrollToBot();
-                clearTimeout(this.timer)
-            }
-            else if(this.state.itemsRendered==32 && !this.state.showButton){
+            // else if(this.state.itemsRendered===25 && !this.state.showButton){
+            //     this.setState({
+            //         showButton:true
+            //     })
+            //     this.scrollToBot();
+            //     clearTimeout(this.timer)
+            // }
+            else if(this.state.itemsRendered===28 && !this.state.showButton){
                 this.setState({
                     showButton:true
                 })
@@ -245,19 +245,7 @@ class Chats extends Component {
         return (
             <div>   
             <div className="chatroom">
-                    {/* <div className='header'>
-                            <div style={{textAlign: 'left',margin: 'auto'}}>&nbsp;
-                                <img className='pull-left' src={'https://lh3.googleusercontent.com/-yZKDpFA9a7g/XHUMTb0pKHI/AAAAAAAABds/UnPCiaos09AywtqvLe-BDSTN8GLk0JVXACL0BGAYYCw/h508/2019-02-26.jpg'}
-                                    style={{marginLeft:10,marginTop:5,width:45,height:45,borderRadius:50}}/>
-                                        <p  style={{alignSelf:'left',left:0,fontSize:33,marginBottom: -5,fontWeight:'500',fontFamily:'Cookie'}}>&nbsp;&nbsp;&nbsp;#AdiSnehdavyaah</p><br/>
-                                        <p  style={{fontSize:14,fontFamily:'nunito',fontWeight:'600'}}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;21th April 2019</p>
-                            </div>
-                    </div> */}
-                    
-                    {/* <ul className="chats" ref={el => { this.el = el; }} style={{height:this.state.showButton ?'calc(100vh - 200px)' : 'calc(100vh - 10px)'}}> */}
                     <ul className="chats" ref="chats" style={{height:this.state.showButton ?'calc(100vh - 80px)' : 'calc(100vh - 10px)'}}>
-                       
-            
                         <div>
                             <Lightbox
                                 images={[this.state.image]}
@@ -278,12 +266,12 @@ class Chats extends Component {
                     >
                             <div>
                             <div>
-                                    <img src={require('./images/dp.jpg')}
+                                    <img src={require('./images/first.jpeg')}
                                     style={{width:100,height:100,borderRadius:50,border: '1.5px solid rgba(57, 74, 132,6 )',marginTop:' 10px'}}
                                     onClick={()=>{
                                                                 this.setState({
                                                                     lightboxIsOpen:true,
-                                                                    image:{src:require('./images/dp.jpg')}
+                                                                    image:{src:require('./images/first.jpeg')}
                                                     })
                                                     }}
                                 />
@@ -321,35 +309,35 @@ class Chats extends Component {
                         // style={{background:'white'}}
                         >
                             {   
-                            this.state.itemsRendered==3 && this.state.showButton && this.button1()
+                            this.state.itemsRendered===2 && this.state.showButton && this.button1()
                             }
                             {   
-                            this.state.itemsRendered==7 && this.state.showButton && this.button1()
+                            this.state.itemsRendered===6 && this.state.showButton && this.button1()
                             }
                             {   
-                            this.state.itemsRendered==9 && this.state.showButton && this.button1()
+                            this.state.itemsRendered===10 && this.state.showButton && this.button1()
                             }
                             {   
-                            this.state.itemsRendered==12&& this.state.showButton && this.button1()
+                            this.state.itemsRendered===12&& this.state.showButton && this.button1()
                             }
                             {   
-                            this.state.itemsRendered==15 && this.state.showButton && this.button1()
+                            this.state.itemsRendered===17 && this.state.showButton && this.button1()
                             }
                             {   
-                            this.state.itemsRendered==21 && this.state.showButton && this.button1()
+                            this.state.itemsRendered===24 && this.state.showButton && this.button1()
                             }
+                            {/* {   
+                            this.state.itemsRendered===25 && this.state.showButton && this.button1()
+                            } */}
                             {   
-                            this.state.itemsRendered==28 && this.state.showButton && this.button1()
-                            }
-                            {   
-                            this.state.itemsRendered==32 && this.state.showButton && this.button1()
+                            this.state.itemsRendered===28 && this.state.showButton && this.button1()
                             }
                             {/* {
-                            this.state.itemsRendered==5 &&  this.state.showButton && this.button2()
+                            this.state.itemsRendered===5 &&  this.state.showButton && this.button2()
                             }
                             
                             {
-                            this.state.itemsRendered==9 &&  this.state.showButton && this.button3()
+                            this.state.itemsRendered===9 &&  this.state.showButton && this.button3()
                             } */}
                          </div>
                          </ReactCSSTransitionGroup>

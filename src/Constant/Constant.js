@@ -33,7 +33,7 @@ export const messageList =[
         content: '',
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         type:'image',
-        image:require('../images/first.jpeg'),
+        image:require('../images/third.jpeg'),
         display:false,
     }, 
         {
@@ -96,18 +96,11 @@ export const messageList =[
         content: '',
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         type:'image',
-        image:require('../images/first.jpeg'),
+        image:require('../images/hotel.jpeg'),
         display:false,
     },
-    // {
-    //     id:12,
-    //     username: "bot",
-    //     img: "http://i.imgur.com/Tj5DGiO.jpg",
-    //     type:'map',
-    //     display:false,
-    // }, 
     {
-        id:12,
+        id:11,
         username: "user",
         content: ' That’s awesome! Excited for a destination wedding 😃',
         buttonText: 'That’s awesome!😃',
@@ -116,7 +109,7 @@ export const messageList =[
         display:false,
     },
     {
-        id:14,
+        id:12,
         username: "bot",
         content: 'On 18th December, we have Baraat Swagat followed by Welcome Dinner from 5:30 PM onwards.',
         buttonText: 'On 18th December, we have Baraat Swagat followed by Welcome Dinner from 5:30 PM onwards.',
@@ -125,7 +118,7 @@ export const messageList =[
         display:false,
     },
     {
-        id:15,
+        id:13,
         username: "user",
         content:'Sounds good!',
         buttonText:'Sounds good!',
@@ -134,7 +127,7 @@ export const messageList =[
         display:false,
     },  
     {
-        id:17,
+        id:14,
         username: "bot",
         content: 'on 19th December,',
         buttonText: 'on 19th December,',
@@ -143,7 +136,7 @@ export const messageList =[
         display:false,
     },
     {
-        id:18,
+        id:15,
         username: "bot",
         content: 
         <p>We have Mahera in the afternoon,<br></br>
@@ -156,7 +149,7 @@ export const messageList =[
         display:false,
     },
     {
-        id:19,
+        id:16,
         username: "bot",
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         // image:'https://scontent.fbom19-1.fna.fbcdn.net/v/t31.0-8/26756734_10155893614176142_5426006532846277824_o.jpg?_nc_cat=108&_nc_ht=scontent.fbom19-1.fna&oh=3ae7dfd59a8061f4daa18ae485dc3e96&oe=5D26F719',
@@ -166,7 +159,7 @@ export const messageList =[
     },  
     // Dancing Gif
     {
-        id:21,
+        id:17,
         username: "bot",
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         image:require('../images/SANGEET.gif'),
@@ -174,7 +167,7 @@ export const messageList =[
         display:false,
     },
     {
-        id:22,
+        id:18,
         username: "user",
         content:"That's going to be Fun!",
         buttonText:"That's going to be Fun!",
@@ -183,7 +176,7 @@ export const messageList =[
         display:false,
     }, 
     {
-        id:23,
+        id:19,
         username: "bot",
         content: 'On 20th December, we have Carnival in the morning at 10:00 AM…',
         buttonText: 'On 20th December, we have Carnival in the morning at 10:00 AM…',
@@ -193,25 +186,25 @@ export const messageList =[
     },
     // carnival Gif
     {
-        id:24,
+        id:20,
         username: "bot",
-        image:require('../images/poolParty.gif'),
+        image:require('../images/carnival.gif'),
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         type:'image',
         display:false,
     },
     {
-        id:25,
+        id:21,
         username: "bot",
-        content: 'Nikasi in the afteroon at 3:15 PM (Dance Emoji)',
-        buttonText: 'Nikasi in the afteroon at 3:15 PM (Dance Emoji)',
+        content: 'Nikasi in the afteroon at 3:15 PM 🕺 💃',
+        buttonText: 'Nikasi in the afteroon at 3:15 PM 🕺 💃',
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         type:'text',
         display:false,
     },
     // Nikasi GIF
     {
-        id:26,
+        id:22,
         username: "bot",
         image:require('../images/Nikasi.gif'),
         img: "http://i.imgur.com/Tj5DGiO.jpg",
@@ -219,7 +212,7 @@ export const messageList =[
         display:false,
     },
     {
-        id:27,
+        id:23,
         username: "bot",
         content: 'Followed by Varmala & Phera at 05:00 PM ❤️❤️',
         buttonText: 'Followed by Varmala & Phera at 05:00 PM (Heart Emoji)',
@@ -229,7 +222,7 @@ export const messageList =[
     },
     // Phera GIF!
     {
-        id:28,
+        id:24,
         username: "bot",
         image:require('../images/Phera.gif'),
         img: "http://i.imgur.com/Tj5DGiO.jpg",
@@ -237,7 +230,7 @@ export const messageList =[
         display:false,
     },
     {
-        id:29,
+        id:25,
         username: "user",
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         type:'text',
@@ -247,7 +240,7 @@ export const messageList =[
     },
     // Cheers Gif
     {
-        id:30,
+        id:26,
         username: "user",
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         image:require('../images/awesome.gif'),
@@ -255,7 +248,7 @@ export const messageList =[
         display:false,
     },
     {
-        id:31,
+        id:27,
         username: "bot",
         content: <p>We are so excited to see you for our wedding. Hope to see you there!</p>,
         buttonText: <p>Get set for<b> #AdiSnehDaVyaah</b>, we’ll see you there !</p>,
@@ -265,7 +258,7 @@ export const messageList =[
     },
     // Couple Photo
     {
-        id:32,
+        id:28,
         username: "bot",
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         type:'image',
@@ -273,7 +266,7 @@ export const messageList =[
         display:false,
     },
     {
-        id:33,
+        id:29,
         username: "user",
         content: "Surely, we'll let you know..",
         buttonText: "Surely, we'll let you know..",
@@ -282,9 +275,9 @@ export const messageList =[
         display:false,
     },
     {
-        id:34,
+        id:30,
         username: "bot",
-        content:<p> <a style={{display: "table-cell"}} href="../images/RP_LOGO.pdf" target="_blank" download={true}>click here (Invite link)</a></p>
+        content:<p> <a style={{display: "table-cell"}} href="https://drive.google.com/file/d/1PJF8gmzV4XP67rBfilJYiOuRdqeqEK42/view?usp=share_link" target="_blank" download={true}>click here (Invite link)</a></p>
         ,
         buttonText: 'Oh and RSVP with your name at the link below please?',
         img: "http://i.imgur.com/Tj5DGiO.jpg",
@@ -292,10 +285,10 @@ export const messageList =[
         display:false,
     },
     {
-        id:34,
+        id:31,
         username: "bot",
         content: <p>Kindly RSVP with your name at the link below.<br/> <br/>
-                 <p> <a style={{display: "table-cell"}} href="https://goo.gl/forms/LqvH9AxNzwMMAwTL2" target="_blank">RSVP link</a></p></p>            
+                 <p> <a style={{display: "table-cell"}} href="https://forms.gle/Y8GWz8jzB7xdbxGUA" target="_blank">RSVP link</a></p></p>            
         ,
         buttonText: 'Oh and RSVP with your name at the link below.?',
         img: "http://i.imgur.com/Tj5DGiO.jpg",
@@ -303,7 +296,7 @@ export const messageList =[
         display:false,
     },
     {
-        id:35,
+        id:32,
         username: "bot",
         // And also don’t forget to use #terenaalPRhogaya while posting selfies on social media
         content: <p>And also don’t forget to use <strong>#terenaalPRhogaya</strong> while posting selfies on social media.</p>,
@@ -313,21 +306,11 @@ export const messageList =[
         display:false,
     },
     {
-        id:31,
+        id:33,
         username: "bot",
         img: "http://i.imgur.com/Tj5DGiO.jpg",
         type:'image',
         image:require('../images/selfies.gif'),
         display:false,
-    },
-    // {
-    //     id:36,
-    //     username: "bot",
-    //     content: <p><a style={{display: "table-cell"}} href="#" target="_blank">text</a></p>,
-    //     buttonText: 'Thank you! So excited to see you there!',
-    //     img: "http://i.imgur.com/Tj5DGiO.jpg",
-    //     type:'text',
-    //     display:false,
-    // },
-   
+    },   
 ];
