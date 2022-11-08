@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/upesh_wedding_invitation/precache-manifest.ea2fb79acd8929aa44d5f2c57385f0b2.js"
+  "/Rupesh_wedding_invitation/precache-manifest.5044c4a086456cd0f37dd621c60838a0.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/upesh_wedding_invitation/index.html", {
+workbox.routing.registerNavigationRoute("/Rupesh_wedding_invitation/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
