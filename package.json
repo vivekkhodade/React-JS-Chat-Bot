@@ -1,7 +1,7 @@
 {
   "name": "chat-bot",
   "version": "0.1.0",
-  "homepage": "https://gitname.github.io/upesh_wedding_invitation",
+  "homepage": "https://gitname.github.io/Rupesh_wedding_invitation",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^3.9.2",
